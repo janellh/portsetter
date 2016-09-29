@@ -1,0 +1,12 @@
+./portsetter.cpp.o
+./portsetter.cpp.o -h 
+./portsetter.cpp.o --help 
+./portsetter.cpp.o --version
+./portsetter.cpp.o -v
+./portsetter.cpp.o --about
+./portsetter.cpp.o -!
+./portsetter.cpp.o -?
+./portsetter.cpp.o -p 4040
+./portsetter.cpp.o --port 4040
+./portsetter.cpp.o -p -e
+./portsetter.cpp.o --port -e

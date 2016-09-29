@@ -1,0 +1,8 @@
+Versión del programa
+Archivo de idioma no se encuentra , defualt al Inglés
+número de puerto enviorment lectura de error
+Error al leer el argumento de la inicial
+Error número no válido de me lo quitaron
+número de puerto no válido de error
+Inglés error de archivo no encontrado
+Escucha en el puerto

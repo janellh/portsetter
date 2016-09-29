@@ -1,0 +1,16 @@
+./portsetter.cpp.o --!
+./portsetter.cpp.o help
+./portsetter.cpp.o -help
+./portsetter.cpp.o --h
+./portsetter.cpp.o -h --help
+./portsetter.cpp.o -hs
+./portsetter.cpp.o -p --port 9
+./portsetter.cpp.o -p 77 33
+./portsetter.cpp.o -p -21
+./portsetter.cpp.o -p 0
+./portsetter.cpp.o --port
+./portsetter.cpp.o -p 90642
+./portsetter.cpp.o -p 5142a2
+./portsetter.cpp.o -x 45321
+./portsetter.cpp.o -P 714
+./portsetter.cpp.o -p -e MY_PORT

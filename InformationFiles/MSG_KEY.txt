@@ -1,0 +1,8 @@
+Program Version
+Language file not found, defualt to English
+Error reading enviorment port number
+Error reading inital argument
+Error invalid number of arguements
+Error invalid port number
+Error English file not found
+Listening on port

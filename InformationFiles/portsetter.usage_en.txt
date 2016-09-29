@@ -1,0 +1,24 @@
+usage: portsetter [options]  [# port number]
+portsetter sets the listening port on the current working computer system.
+[options] can be set to any of the following values
+
+-h               | --help    |  -?
+        information about usage of portsetter utility.
+-!               | --about	
+        information about the portsetter utility. 
+-v	             | --version	        
+        current version of the portsetter utility.
+-p	[#]          | --port [#]           
+        sets the listening port where [#] is the desired number.
+-p -e            | --port -e            
+        sets the listening port as the local enviorment port [PORT]
+-p -e  [MY_PORT] | --port -e [MY_PORT]  
+        sets the listening port as the user devined enviorment port [MY_PORT]
+
+--------------Troubleshooting--------------
+1 = Error reading inital arguement.
+    Expecting [flag] [# port number]
+2 = Invalid number of arguments
+    Received to many arguments.
+3 = Invalid port number 
+    Port number was not number or not within 1 and 65535 inclusive. 

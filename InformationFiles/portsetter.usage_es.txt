@@ -1,0 +1,24 @@
+Uso: portsetter [opciones] [# número de puerto]
+portsetter establece el puerto de escucha en el sistema informático de trabajo actual.
+[Opciones] se pueden configurar para cualquiera de los siguientes valores
+
+-h | --help | -?
+        información sobre el uso de la utilidad portsetter.
+-! | --acerca de
+        información sobre la utilidad portsetter.
+-v | --versión
+        versión actual de la utilidad portsetter.
+-p [#] | --Puerto [#]
+        establece el puerto de escucha, donde [#] es el número deseado.
+-p -e | --port -e
+        establece el puerto de escucha como el puerto local de enviorment [PORT]
+-p -e [MY_PORT] | --port -e [MY_PORT]
+        establece el puerto de escucha como el puerto enviorment devined usuario [MY_PORT]
+
+--------------Solución de problemas--------------
+1 = lectura argumento inital error.
+    Esperando [bandera] [# número de puerto]
+2 = Número de argumentos no válido
+    Recibido a muchos argumentos.
+3 = número de puerto no válido
+    número de puerto no era el número o no dentro de 1 y 65535, ambos inclusive.

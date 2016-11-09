@@ -10,3 +10,5 @@
 ./portsetter.cpp.o --port 4040
 ./portsetter.cpp.o -p -e
 ./portsetter.cpp.o --port -e
+./portsetter.cpp.o -p --enviroment
+./portsetter.cpp.o --port --enviroment

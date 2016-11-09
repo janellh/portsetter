@@ -14,11 +14,15 @@ type the command -> portsetter.cpp.o _[flags]_
 -h   | --help    | -? ->  info about how to use the program **default** <br />
 -p # | --port #       ->  sets the listening port to #<br />
 -v   | --version      ->  prints the current version of the program.<br />
--!   | --about        ->  info about the program.<br />
--p -e _[PORT]_        ->  _[PORT]_ is not listed and sets to default env port.<br /><br />
+-!   | --about        ->  info about the program.<br /><br />
+-p -e _[PORT]_        ->  _[PORT]_ is not listed and sets to default env port.<br />
 --port -e _[PORT]_    ->  _[PORT]_ is not listed and sets to default env port.<br />
 -p -e [MYPORT]        -> [MYPORT] is the enviorment port number.<br />
 --port -e [MYPORT]    -> [MYPORT] is the enviorment port number.<br />
+-p --enviroment _[PORT]_        ->  _[PORT]_ is not listed and sets to default env port.<br />
+--port --enviroment _[PORT]_    ->  _[PORT]_ is not listed and sets to default env port.<br />
+-p --enviroment [MYPORT]        -> [MYPORT] is the enviorment port number.<br />
+--port --enviroment [MYPORT]    -> [MYPORT] is the enviorment port number.<br />
 
 Running program anywhere the name would need to be added to the Alias list. 
 

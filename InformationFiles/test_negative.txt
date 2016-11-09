@@ -14,3 +14,5 @@
 ./portsetter.cpp.o -x 45321
 ./portsetter.cpp.o -P 714
 ./portsetter.cpp.o -p -e MY_PORT
+./portsetter.cpp.o -p --e
+./portsetter.cpp.o --port -enviroment

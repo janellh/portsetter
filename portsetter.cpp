@@ -128,7 +128,7 @@ int main(int argc, char * args[]) {
 					return 0;
 				}
 			catch (...) {
-				if(string(args[2]) == "-e") {
+				if(string(args[2]) == "-e" || string(args[2]) == "--enviroment") {
 					portNumber = getenv("PORT");
 					try {
 						cout << messages[LISTENING_ON_PORT] <<" "<< validPortNumber(portNumber) << endl;
@@ -150,7 +150,7 @@ int main(int argc, char * args[]) {
 	if (argc == 4) { 
 		// if here they are trying to set the port to user defined enviorment port
 		if ((string(args[1]) == "-p" || string(args[1]) == "--port")) {
-			if (string(args[2]) == "-e" ){
+			if (string(args[2]) == "-e" || string(args[2]) == "--enviroment){
 				try {
 					cout << messages[LISTENING_ON_PORT] << " " << validPortNumber(portNumber) << endl; //try to get number
 					return 0;
